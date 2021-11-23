@@ -146,24 +146,24 @@ footer #footer-menu ul li {
 }
 
 
-/*Contact form*/
-#contact {
+/*Reservation form*/
+#reservation {
     width: 1000px;
     margin: 2rem auto;
     height: 80vh;
     padding: 2rem;
 }
 
-#contact h1 {
+#reservation h1 {
     margin-bottom: 1rem;
 }
 
-#contact form {
+#reservation form {
     display: flex;
     flex-direction: column;
 }
 
-#contact form input {
+#reservation form input {
     margin-bottom: 1rem;
     border: none;
     padding: 0.5rem 1rem;
@@ -171,18 +171,23 @@ footer #footer-menu ul li {
     color: #E8F0FF;
 }
 
-#contact form textarea {
+#reservation form textarea {
     margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 5px;
 }
 
-#contact form button {
+#reservation form button {
     border: none;
     padding: 1rem 2rem;
     color: #E8F0FF;
     background-color: #7C7C7C;
     border-radius: 5px;
+}
+
+#reservation form button:hover {
+    background-color: #E8F0FF;
+    cursor: pointer;
 }
 
 
