@@ -185,6 +185,11 @@ footer #footer-menu ul li {
     border-radius: 5px;
 }
 
+#contact form button:hover {
+    background-color: #E8F0FF;
+    cursor: pointer;
+}
+
 
 /*Naslovi*/
 .naslov {
