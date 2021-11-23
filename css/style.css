@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #383D3B;
+    color: #E8F0FF;
+}
+
+iframe {
+    width: 92%;
+    height: 300px;
+    margin: 4%;
+    
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E8F0FF;
+}
+
+#lokacija a {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #E8F0FF;
+    color: #383D3B;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#lokacija a:hover {
+    background-color: #7C7C7C;
+}
+
+#opis {
+    margin-bottom: 100px;
+    font-size: 20px;
+    text-align: center;
+    color: #E8F0FF;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #E8F0FF;
+}
+
+#preporuka {
+    display: flex;
+    flex-direction: row;
+    color: #E8F0FF;
+    justify-content: space-around;
+}
+
+.pice p {
+    text-align: center;
+}
+
+
+/*Nav menu*/
+nav {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    padding-top: 2.5rem;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-right: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E8F0FF;
+}
+
+nav ul li a:hover {
+    color: #7C7C7C;
+    transition: 200ms ease-in-out;
+}
+
+#banner {
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/cover.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    margin: 50px;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #7C7C7C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#social-media li {
+    margin-right: 15px;
+}
+
+footer #footer-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer #footer-menu li {
+    margin-right: 15px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer #footer-menu ul li {
+    margin-top: 20px;
+}
+
+
+/*Contact form*/
+#contact {
+    width: 1000px;
+    margin: 2rem auto;
+    height: 80vh;
+    padding: 2rem;
+}
+
+#contact h1 {
+    margin-bottom: 1rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input {
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #E8F0FF;
+}
+
+#contact form textarea {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#contact form button {
+    border: none;
+    padding: 1rem 2rem;
+    color: #E8F0FF;
+    background-color: #7C7C7C;
+    border-radius: 5px;
+}
+
+
+/*Naslovi*/
+.naslov {
+    text-align: center;
+    text-transform: uppercase;
+    color: #E8F0FF;
+}
+
+
+/*Gallery*/
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#gallery img {
+    margin: 10px;
+    border: 5px solid #E8F0FF;
+}
+
+
+/*Author*/
+#autor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    color: #E8F0FF;
+    justify-content: center;
+}
+
+#autor p {
+    margin-top: 2rem;
+    text-align: center;
+}
