@@ -181,6 +181,7 @@ footer #footer-menu ul li {
     border: none;
     padding: 1rem 2rem;
     color: #383D3B;
+    text-transform: uppercase;
     background-color: #7C7C7C;
     border-radius: 5px;
 }
